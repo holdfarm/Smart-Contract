@@ -3,19 +3,12 @@
 pragma solidity 0.6.12;
 
 import "./helpers/ERC20.sol";
-
 import "./libraries/Address.sol";
-
 import "./libraries/SafeERC20.sol";
-
 import "./libraries/EnumerableSet.sol";
-
 import "./helpers/Ownable.sol";
-
 import "./interfaces/IPancakeswapFarm.sol";
-
 import "./interfaces/IPancakeRouter01.sol";
-
 import "./interfaces/IPancakeRouter02.sol";
 
 interface IWBNB is IERC20 {
